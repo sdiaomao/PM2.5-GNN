@@ -42,7 +42,7 @@ class GraphGAT(nn.Module):
         return x
 
 
-class PM25_GNN(nn.Module):
+class PM25_GAT(nn.Module):
     def __init__(self, hist_len, pred_len, in_dim, city_num, batch_size, device, edge_index, edge_attr, wind_mean, wind_std):
         super(PM25_GNN, self).__init__()
 
